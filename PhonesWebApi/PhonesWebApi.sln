@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhonesWebApi", "PhonesWebApi\PhonesWebApi.csproj", "{B071C23A-1124-41F5-A71D-E5292183D0D0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopDAL", "ShopDAL\ShopDAL.csproj", "{214C7BF4-3A7D-49E4-8695-0B63A894ABE5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B071C23A-1124-41F5-A71D-E5292183D0D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B071C23A-1124-41F5-A71D-E5292183D0D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B071C23A-1124-41F5-A71D-E5292183D0D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B071C23A-1124-41F5-A71D-E5292183D0D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{214C7BF4-3A7D-49E4-8695-0B63A894ABE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{214C7BF4-3A7D-49E4-8695-0B63A894ABE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{214C7BF4-3A7D-49E4-8695-0B63A894ABE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{214C7BF4-3A7D-49E4-8695-0B63A894ABE5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BD56533D-4AE6-4012-B3AA-785F69E397BA}
+	EndGlobalSection
+EndGlobal

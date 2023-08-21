@@ -1,0 +1,5 @@
+C:\Users\ariey\source\repos\PhonesWebApi\PhoneDAL\obj\Debug\net6.0\PhoneDAL.csproj.AssemblyReference.cache
+C:\Users\ariey\source\repos\PhonesWebApi\PhoneDAL\obj\Debug\net6.0\PhoneDAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ariey\source\repos\PhonesWebApi\PhoneDAL\obj\Debug\net6.0\PhoneDAL.AssemblyInfoInputs.cache
+C:\Users\ariey\source\repos\PhonesWebApi\PhoneDAL\obj\Debug\net6.0\PhoneDAL.AssemblyInfo.cs
+C:\Users\ariey\source\repos\PhonesWebApi\PhoneDAL\obj\Debug\net6.0\PhoneDAL.csproj.CoreCompileInputs.cache

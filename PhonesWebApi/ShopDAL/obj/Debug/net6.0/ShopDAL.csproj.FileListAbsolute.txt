@@ -1,0 +1,14 @@
+C:\Users\ariey\source\repos\PhonesWebApi\ShopDAL\bin\Debug\net6.0\ShopDAL.deps.json
+C:\Users\ariey\source\repos\PhonesWebApi\ShopDAL\bin\Debug\net6.0\ShopDAL.runtimeconfig.json
+C:\Users\ariey\source\repos\PhonesWebApi\ShopDAL\bin\Debug\net6.0\ShopDAL.dll
+C:\Users\ariey\source\repos\PhonesWebApi\ShopDAL\bin\Debug\net6.0\ShopDAL.pdb
+C:\Users\ariey\source\repos\PhonesWebApi\ShopDAL\obj\Debug\net6.0\ShopDAL.csproj.AssemblyReference.cache
+C:\Users\ariey\source\repos\PhonesWebApi\ShopDAL\obj\Debug\net6.0\ShopDAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ariey\source\repos\PhonesWebApi\ShopDAL\obj\Debug\net6.0\ShopDAL.AssemblyInfoInputs.cache
+C:\Users\ariey\source\repos\PhonesWebApi\ShopDAL\obj\Debug\net6.0\ShopDAL.AssemblyInfo.cs
+C:\Users\ariey\source\repos\PhonesWebApi\ShopDAL\obj\Debug\net6.0\ShopDAL.csproj.CoreCompileInputs.cache
+C:\Users\ariey\source\repos\PhonesWebApi\ShopDAL\obj\Debug\net6.0\ShopDAL.dll
+C:\Users\ariey\source\repos\PhonesWebApi\ShopDAL\obj\Debug\net6.0\refint\ShopDAL.dll
+C:\Users\ariey\source\repos\PhonesWebApi\ShopDAL\obj\Debug\net6.0\ShopDAL.pdb
+C:\Users\ariey\source\repos\PhonesWebApi\ShopDAL\obj\Debug\net6.0\ShopDAL.genruntimeconfig.cache
+C:\Users\ariey\source\repos\PhonesWebApi\ShopDAL\obj\Debug\net6.0\ref\ShopDAL.dll

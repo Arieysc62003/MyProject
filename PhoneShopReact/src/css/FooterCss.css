@@ -1,0 +1,68 @@
+.FooterWrapper {
+  background-color: #333;
+  padding: 1.5rem;
+}
+.FooterContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 1.3rem;
+  margin-top: 0.7rem;
+}
+.FooterTitle {
+  font-size: 1.6rem;
+  font-weight: 450;
+  color: rgb(5, 141, 252);
+}
+
+.FooterLinks li {
+  margin-top: 1rem;
+}
+.FooterLinks li div {
+  font-size: 1.1rem;
+  font-weight: 500;
+  transition: 0.3s;
+  color: rgb(70, 117, 226);
+}
+.SocialLinks {
+  display: flex;
+  justify-content: space-around;
+  cursor: pointer;
+}
+
+svg {
+  fill: #fff;
+  font-size: 1.2rem;
+  transition: 0.3s;
+}
+/* .footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+} */
+
+.footer p {
+  padding: 10px;
+  margin: 0;
+  color: #fff;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .footer {
+    font-size: 14px;
+  }
+}
