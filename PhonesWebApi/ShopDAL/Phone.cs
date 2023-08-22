@@ -16,7 +16,7 @@ namespace ShopDAL
         [Range(1, 10000)]
         public decimal Price { get; set; }
         public string Color { get; set; }
-        [MaxLength(200)]
+        [MaxLength(1000)]
         public string Details { get; set; }
 
         public ICollection<ProductOrder>? PhonesOrders { get; set; }

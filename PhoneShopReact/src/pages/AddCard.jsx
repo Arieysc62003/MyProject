@@ -5,7 +5,6 @@ import { useNavigate } from "react-router-dom";
 const AddCard = () => {
   const [image, setImage] = useState("");
   const [add, setAdd] = useState({
-    // phoneID: (phones.length + 1).toString(),
     model: "",
     price: 0,
     imageData: image,
@@ -34,6 +33,10 @@ const AddCard = () => {
 
   const imageChange = (e) => {
     setImage(e.target.value);
+    setAdd((prevAdd) => ({
+      ...prevAdd,
+      [e.target.name]: e.target.value,
+    }));
     console.log(image);
     console.log(add.imageData);
   };

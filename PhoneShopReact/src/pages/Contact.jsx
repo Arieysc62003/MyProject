@@ -1,4 +1,4 @@
-import React from "react";
+import ContinueShopping from "../components/ContinueShopping";
 
 function Contact() {
   return (
@@ -23,6 +23,7 @@ function Contact() {
         </div>
         <button type="submit">Submit</button>
       </form>
+      <ContinueShopping message={"Return Shopping"} />
     </div>
   );
 }

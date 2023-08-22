@@ -12,8 +12,8 @@ using ShopDAL;
 namespace ShopDAL.Migrations
 {
     [DbContext(typeof(ShopDbContext))]
-    [Migration("20230724164235_1")]
-    partial class _1
+    [Migration("20230822172936_aaa")]
+    partial class aaa
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -39,8 +39,8 @@ namespace ShopDAL.Migrations
 
                     b.Property<string>("Details")
                         .IsRequired()
-                        .HasMaxLength(200)
-                        .HasColumnType("nvarchar(200)");
+                        .HasMaxLength(1000)
+                        .HasColumnType("nvarchar(1000)");
 
                     b.Property<string>("ImageData")
                         .HasColumnType("nvarchar(max)");
@@ -62,37 +62,73 @@ namespace ShopDAL.Migrations
                         {
                             PhoneId = 1,
                             Color = "Gold",
-                            Details = "x",
+                            Details = "The new iPhone 14 Pro Max from Apple! The powerful and modern one with the powerful processor that changes the legal game and advanced technology for an extraordinary user experience. A combination of impressive design and a spectacular and more advanced photography setup than ever before!",
                             ImageData = "https://d3m9l0v76dty0.cloudfront.net/system/photos/10934083/large/0bbb2892562c4e179d80c68b328f60ee.jpg",
-                            Model = "iPhone 14 Pro 512GB",
+                            Model = "iPhone 14 Pro Max",
                             Price = 6000m
                         },
                         new
                         {
                             PhoneId = 2,
                             Color = "Black",
-                            Details = "x",
+                            Details = "The new iPhone 14  from Apple! The powerful and modern one with the powerful processor that changes the legal game and advanced technology for an extraordinary user experience. A combination of impressive design and a spectacular and more advanced photography setup than ever before!",
                             ImageData = "https://d3m9l0v76dty0.cloudfront.net/system/photos/10083611/large/9b814085bdafb47be8da7b14c31ad983.png",
-                            Model = "iPhone 14 Pro Max 512GB",
+                            Model = "iPhone 14",
                             Price = 6500m
                         },
                         new
                         {
                             PhoneId = 3,
                             Color = "Purple",
-                            Details = "x",
+                            Details = "The new iPhone 14 Pro from Apple! The powerful and modern one with the powerful processor that changes the legal game and advanced technology for an extraordinary user experience. A combination of impressive design and a spectacular and more advanced photography setup than ever before!",
                             ImageData = "https://d3m9l0v76dty0.cloudfront.net/system/photos/10083610/large/0edebdde77cd1f4f48397a3471bedcce.png",
-                            Model = "iPhone 13 128GB",
+                            Model = "iPhone 14 Pro",
                             Price = 3100m
                         },
                         new
                         {
-                            PhoneId = 4,
+                            PhoneId = 36,
                             Color = "Silver",
-                            Details = "x",
+                            Details = "The new iPhone 12 pro from Apple! The powerful and modern one with the powerful processor that changes the legal game and advanced technology for an extraordinary user experience. A combination of impressive design and a spectacular and more advanced photography setup than ever before!",
                             ImageData = "https://d3m9l0v76dty0.cloudfront.net/system/photos/10083609/large/3efcbab52ccaefaacc94441dd01c62c3.png",
-                            Model = "iPhone 14 Pro 256GB",
+                            Model = "iPhone 12 Pro",
                             Price = 5070m
+                        },
+                        new
+                        {
+                            PhoneId = 37,
+                            Color = "black",
+                            Details = "The new iPhone 14 Plus from Apple! The powerful and modern one with the powerful processor that changes the legal game and advanced technology for an extraordinary user experience. A combination of impressive design and a spectacular and more advanced photography setup than ever before!",
+                            ImageData = "https://d3m9l0v76dty0.cloudfront.net/system/photos/10967117/large/7b88836cdfd695ea84ad33508611dafa.jpg",
+                            Model = "iPhone 14 Plus",
+                            Price = 4500m
+                        },
+                        new
+                        {
+                            PhoneId = 38,
+                            Color = "blue",
+                            Details = "The new iPhone 12 from Apple! The powerful and modern one with the powerful processor that changes the legal game and advanced technology for an extraordinary user experience. A combination of impressive design and a spectacular and more advanced photography setup than ever before!",
+                            ImageData = "https://d3m9l0v76dty0.cloudfront.net/system/photos/10967114/large/264e286843d12a1727bbd2a92764919b.jpg",
+                            Model = "iPhone 12",
+                            Price = 4800m
+                        },
+                        new
+                        {
+                            PhoneId = 39,
+                            Color = "White",
+                            Details = "The new iPhone 12 Pro Max from Apple! The powerful and modern one with the powerful processor that changes the legal game and advanced technology for an extraordinary user experience. A combination of impressive design and a spectacular and more advanced photography setup than ever before!",
+                            ImageData = "https://d3m9l0v76dty0.cloudfront.net/system/photos/10967116/large/267eac5bfe18c8d7aca581506b881d5c.jpg",
+                            Model = "iPhone 12 Pro Max",
+                            Price = 6700m
+                        },
+                        new
+                        {
+                            PhoneId = 40,
+                            Color = "Yellow",
+                            Details = "The new iPhone 11 from Apple! The powerful and modern one with the powerful processor that changes the legal game and advanced technology for an extraordinary user experience. A combination of impressive design and a spectacular and more advanced photography setup than ever before!",
+                            ImageData = "https://d3m9l0v76dty0.cloudfront.net/system/photos/11880336/large/84888daa2a057c6f6d6dd305a3ea1a85.jpg",
+                            Model = "iPhone 11",
+                            Price = 5000m
                         });
                 });
 
@@ -225,13 +261,13 @@ namespace ShopDAL.Migrations
                         new
                         {
                             OrderId = 1,
-                            Created = new DateTime(2023, 7, 24, 19, 42, 35, 10, DateTimeKind.Local).AddTicks(1366),
+                            Created = new DateTime(2023, 8, 22, 20, 29, 36, 310, DateTimeKind.Local).AddTicks(3656),
                             UserId = 2
                         },
                         new
                         {
                             OrderId = 2,
-                            Created = new DateTime(2023, 7, 24, 19, 42, 35, 10, DateTimeKind.Local).AddTicks(1414),
+                            Created = new DateTime(2023, 8, 22, 20, 29, 36, 310, DateTimeKind.Local).AddTicks(3703),
                             UserId = 3
                         });
                 });

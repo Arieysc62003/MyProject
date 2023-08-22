@@ -27,7 +27,7 @@ export const cartData = [
     phoneID: "4",
     model: "iPhone 12 Pro",
     price: 3290,
-    src: "https://d3m9l0v76dty0.cloudfront.net/system/photos/6803246/large/64276d159159d24d1e0b14ee01d2d8bf.jpg",
+    src: "https://d3m9l0v76dty0.cloudfront.net/system/photos/10967114/large/264e286843d12a1727bbd2a92764919b.jpg",
     color: "Black",
     count: "1",
   },

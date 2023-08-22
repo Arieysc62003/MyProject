@@ -131,18 +131,18 @@
   color: white;
   letter-spacing: 1.15px;
 }
-.continue-shopping,
+
 .start-shopping {
   margin-top: 1rem;
 }
-.continue-shopping a,
+
 .start-shopping a {
   color: gray;
   text-decoration: none;
   display: flex;
   align-items: center;
 }
-.continue-shopping a span,
+
 .start-shopping a span {
   margin-left: 0.5rem;
 }

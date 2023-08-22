@@ -8,10 +8,14 @@ function ManagerCard(props) {
     return navigate("/Change/" + id);
   };
   const onDelete = () => {
-    fetch(`https://localhost:5478/Phones/${phoneID}`, {
-      method: "DELETE",
-      headers: { "Content-Type": "application/json" },
-    });
+    if (confirm("Are you sure you want to delete ?") == true) {
+      fetch(`https://localhost:5478/Phones/${phoneID}`, {
+        method: "DELETE",
+        headers: { "Content-Type": "application/json" },
+      }).then((res) => {
+        if (res.ok) return navigate("/");
+      });
+    }
   };
   return (
     <div className="phone-card">

@@ -1,9 +1,7 @@
 import AddToCart from "../components/AddToCart";
 import { cartData } from "../data/CartData";
-import { Link } from "react-router-dom";
-import { ArrowFatLeft } from "phosphor-react";
 import "../css/Cart.css";
-// import { useRef } from "react";
+import ContinueShopping from "../components/ContinueShopping";
 
 const Cart = () => {
   const amount = 8000;
@@ -13,12 +11,7 @@ const Cart = () => {
       {cartData.length == 0 ? (
         <div className="cart-empty">
           <p>Your cart is currently empty</p>
-          <div className="start-shopping">
-            <Link to="/">
-              <ArrowFatLeft width={20} height={20} />
-              <span>Start shopping</span>
-            </Link>
-          </div>
+          <ContinueShopping message={"Start shopping"} />
         </div>
       ) : (
         <>
@@ -47,12 +40,7 @@ const Cart = () => {
               <span className="amount">{amount}</span>
               <p>Taxes and shopping calculated at checkout</p>
               <button>Check Out</button>
-              <div className="continue-shopping">
-                <Link to="/">
-                  <ArrowFatLeft width={20} height={20} />
-                  <span> Continue Shopping</span>
-                </Link>
-              </div>
+              <ContinueShopping message={"Continue Shopping"} />
             </div>
           </div>
         </>

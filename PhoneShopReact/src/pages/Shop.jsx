@@ -1,5 +1,4 @@
 import PhoneCard from "../components/PhoneCard";
-// import { phones } from "../data/PhonesData";
 import { useState, useEffect } from "react";
 import Search from "../components/Search";
 

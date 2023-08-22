@@ -18,7 +18,7 @@ const Search = ({ SetQuery, price, SetPrice }) => {
       <label className="range-label">price: {price}</label>
       <input
         type="range"
-        min={3000}
+        min={1000}
         max={8000}
         step={50}
         value={price}
