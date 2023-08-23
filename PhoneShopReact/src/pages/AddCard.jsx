@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { phones } from "../data/PhonesData";
 import { useNavigate } from "react-router-dom";
 
 const AddCard = () => {
@@ -44,7 +43,7 @@ const AddCard = () => {
   return (
     <div className="app">
       <h1>Add Card</h1>
-      <div className="details" key={(phones.length + 1).toString()}>
+      <div className="details">
         <div className="big-img">
           <img
             src={

@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-// import { phones } from "../data/PhonesData";
 import ManagerCard from "../components/ManagerCard";
 import Search from "../components/Search";
 import { useNavigate } from "react-router-dom";
