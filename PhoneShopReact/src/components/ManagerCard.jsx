@@ -7,9 +7,9 @@ function ManagerCard(props) {
   const onChange = (id) => {
     return navigate("/Change/" + id);
   };
-  const onDelete = () => {
+  const onDelete = async () => {
     if (confirm("Are you sure you want to delete ?") == true) {
-      fetch(`https://localhost:5478/Phones/${phoneID}`, {
+      await fetch(`https://localhost:5478/Phones/${phoneID}`, {
         method: "DELETE",
         headers: { "Content-Type": "application/json" },
       }).then((res) => {

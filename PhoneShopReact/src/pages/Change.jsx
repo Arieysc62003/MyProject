@@ -24,10 +24,10 @@ const Change = () => {
         setEdit(data);
       });
   }, []);
-  const changeDetails = () => {
+  const changeDetails = async () => {
     const jsonData = JSON.stringify(edit);
 
-    fetch(`https://localhost:5478/Phones/${id}`, {
+    await fetch(`https://localhost:5478/Phones/${id}`, {
       method: "PUT",
       headers: { "Content-Type": "application/json" },
       body: jsonData,

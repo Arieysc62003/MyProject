@@ -12,10 +12,10 @@ const AddCard = () => {
   });
   let navigate = useNavigate();
 
-  const addCard = () => {
+  const addCard = async () => {
     const jsonData = JSON.stringify(add);
 
-    fetch("https://localhost:5478/Phones", {
+    await fetch("https://localhost:5478/Phones", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: jsonData,

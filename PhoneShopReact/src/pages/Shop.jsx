@@ -11,14 +11,23 @@ function Shop() {
     fetchPhones && console.log(fetchPhones);
   }
   useEffect(() => {
-    fetch("https://localhost:5478/Phones")
-      .then((res) => {
-        return res.json();
-      })
-      .then((data) => {
-        SetFetchPhones(data);
-      });
+    const fetchData = async () => {
+      try {
+        const response = await fetch("https://localhost:5478/Phones");
+        if (response.ok) {
+          const data = await response.json();
+          SetFetchPhones(data);
+        } else {
+          console.error("Failed to fetch data");
+        }
+      } catch (error) {
+        console.error("Error while fetching data:", error);
+      }
+    };
+
+    fetchData();
   }, []);
+
   return (
     <div className="phone-card-container">
       <Search SetQuery={SetQuery} price={price} SetPrice={SetPrice} />
