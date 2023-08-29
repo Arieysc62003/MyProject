@@ -7,9 +7,6 @@ function Shop() {
   const [price, SetPrice] = useState(8000);
   const [fetchPhones, SetFetchPhones] = useState(null);
 
-  function Data() {
-    fetchPhones && console.log(fetchPhones);
-  }
   useEffect(() => {
     const fetchData = async () => {
       try {
@@ -48,7 +45,6 @@ function Shop() {
               color={phone.color}
             />
           ))}
-      <button onClick={Data}>Fetch Data</button>
     </div>
   );
 }
